@@ -16,7 +16,7 @@ Paywall-Erkennung, Lesemodus – **ohne Werbung, ohne Tracking, ohne Konto**.
 
 ### 📥 Download
 - **[Catnewz 1.0 (APK) herunterladen »](catnewz-1.0.apk)** · Android 8.0+ · ca. 3,8 MB
-- Projektseite: **[Zur Website »](https://devcat-skz.github.io/Catnewz/)**
+- Projektseite: **[Zur Website »](https://devcatskz.github.io/Catnewz/)**
 - Datenschutzerklärung: **[privacy.html »](privacy.html)**
 
 > Catnewz ist (noch) nicht im Google Play Store. Zum Installieren die APK öffnen und
@@ -33,7 +33,7 @@ reader mode – **no ads, no tracking, no account**.
 
 ### 📥 Download
 - **[Download Catnewz 1.0 (APK) »](catnewz-1.0.apk)** · Android 8.0+ · approx. 3.8 MB
-- Project page: **[Open website »](https://devcat-skz.github.io/Catnewz/)**
+- Project page: **[Open website »](https://devcatskz.github.io/Catnewz/)**
 - Privacy policy: **[privacy.html »](privacy.html)**
 
 > Catnewz is not (yet) on the Google Play Store. To install, open the APK and allow
