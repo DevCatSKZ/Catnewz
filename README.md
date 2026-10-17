@@ -15,7 +15,7 @@ und automatisch nach Stimmung sortiert – **positiv, neutral, negativ**. Fünf 
 Paywall-Erkennung, Lesemodus – **ohne Werbung, ohne Tracking, ohne Konto**.
 
 ### 📥 Download
-- **[Catnewz 1.0 (APK) herunterladen »](catnewz-1.0.apk)** · Android 8.0+ · ca. 3,6 MB
+- **[Catnewz 1.0 (APK) herunterladen »](catnewz-1.0.apk)** · Android 8.0+ · ca. 3,7 MB
 - Projektseite: **[Zur Website »](https://devcatskz.github.io/Catnewz/)**
 - Datenschutzerklärung: **[privacy.html »](privacy.html)**
 
@@ -32,7 +32,7 @@ automatically sorts it by mood – **positive, neutral, negative**. Five languag
 reader mode – **no ads, no tracking, no account**.
 
 ### 📥 Download
-- **[Download Catnewz 1.0 (APK) »](catnewz-1.0.apk)** · Android 8.0+ · approx. 3.6 MB
+- **[Download Catnewz 1.0 (APK) »](catnewz-1.0.apk)** · Android 8.0+ · approx. 3.7 MB
 - Project page: **[Open website »](https://devcatskz.github.io/Catnewz/)**
 - Privacy policy: **[privacy.html »](privacy.html)**
 
