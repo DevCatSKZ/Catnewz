@@ -61,7 +61,8 @@ a:hover{text-decoration:underline}
   transition:background .12s ease,color .12s ease;
 }
 .langswitch button:hover{color:var(--text)}
-.langswitch button.active{color:var(--bg);background:var(--accent)}
+/* Aktiv wie die Chips der App: Akzent bei 18 % als Füllung, Akzent-Schrift */
+.langswitch button.active{color:var(--accent);background:rgba(45,225,194,.18)}
 
 /* Datenschutz: pro Sprache ein Block, nur der aktive ist sichtbar */
 [data-lang-block]{display:none}
@@ -93,17 +94,26 @@ html[data-lang="it"] [data-lang-block="it"]{display:block}
 
 /* Buttons */
 .cta-row{display:flex;flex-direction:column;align-items:center;gap:10px;margin:30px 0 6px}
+/* Holo-Glas-Button wie in der App (GlassButton): durchscheinende dunkle
+   Fläche mit Teal→Violett-Hauch und Glanz oben, irisierender Rand
+   Teal → Violett → Gold, helle Schrift, weicher Schein. */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:11px;
-  font:inherit;font-weight:800;font-size:17px;color:#04211C;
-  padding:16px 34px;border-radius:999px;border:0;cursor:pointer;
-  background:linear-gradient(96deg,var(--accent),var(--violet));
-  box-shadow:0 14px 34px rgba(45,225,194,.30),0 6px 18px rgba(124,92,255,.28);
+  font:inherit;font-weight:800;font-size:17px;color:var(--text);
+  padding:16px 34px;border-radius:999px;cursor:pointer;
+  border:1.5px solid transparent;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,0) 55%) padding-box,
+    linear-gradient(96deg,rgba(45,225,194,.22),rgba(124,92,255,.22)) padding-box,
+    linear-gradient(rgba(4,10,16,.72),rgba(4,10,16,.72)) padding-box,
+    linear-gradient(96deg,var(--accent),var(--violet),var(--gold)) border-box;
+  box-shadow:0 10px 30px rgba(45,225,194,.24),0 4px 16px rgba(124,92,255,.18);
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
   transition:transform .15s ease,box-shadow .15s ease;
 }
 .btn:hover{transform:translateY(-2px);text-decoration:none;
-  box-shadow:0 20px 44px rgba(45,225,194,.40),0 8px 22px rgba(124,92,255,.34)}
-.btn svg{width:20px;height:20px}
+  box-shadow:0 16px 40px rgba(45,225,194,.34),0 6px 20px rgba(124,92,255,.26)}
+.btn svg{width:20px;height:20px;color:var(--accent)}
 .dl-meta{font-size:13px;color:var(--muted)}
 
 /* Glas-Karten */
