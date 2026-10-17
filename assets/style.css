@@ -52,7 +52,7 @@ a:hover{text-decoration:underline}
   padding:22px 0;
 }
 .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:19px;letter-spacing:.3px}
-.brand .mark{width:38px;height:38px;border-radius:11px;flex:0 0 auto}
+.brand .mark{width:36px;height:auto;flex:0 0 auto}
 .nav{display:flex;align-items:center;gap:10px;font-size:14px}
 .langswitch{display:inline-flex;flex-wrap:wrap;border:1px solid var(--hairline);border-radius:999px;overflow:hidden}
 .langswitch button{
@@ -71,24 +71,35 @@ html[data-lang="es"] [data-lang-block="es"],
 html[data-lang="fr"] [data-lang-block="fr"],
 html[data-lang="it"] [data-lang-block="it"]{display:block}
 
-/* Icon-Kachel (wie App-Launcher) */
+/* Icon-Kachel (wie App-Launcher) – skaliert über --size (Radius/Schatten wachsen proportional mit).
+   Katze = unverändertes Original-Artwork der App (cat-hd.png = res/drawable-nodpi/logo_cat.png, 523×507). */
 .appicon{
-  width:132px;height:132px;border-radius:30px;position:relative;
+  --size:132px;
+  width:var(--size);height:var(--size);border-radius:22.7%;position:relative;
   background:
     radial-gradient(120% 120% at 22% 12%, rgba(45,225,194,.55), transparent 55%),
     radial-gradient(120% 120% at 86% 20%, rgba(124,92,255,.60), transparent 58%),
     radial-gradient(130% 130% at 60% 120%, rgba(255,194,75,.35), transparent 60%),
     #071019;
   border:1px solid var(--glass-border);
-  box-shadow:0 18px 50px rgba(45,225,194,.18),0 8px 30px rgba(124,92,255,.18),
+  box-shadow:0 calc(var(--size)*.13) calc(var(--size)*.38) rgba(45,225,194,.18),
+             0 calc(var(--size)*.06) calc(var(--size)*.23) rgba(124,92,255,.18),
              inset 0 1px 0 rgba(255,255,255,.10);
   display:grid;place-items:center;
 }
-.appicon img{width:96px;height:96px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))}
+.appicon img{width:62%;height:auto;
+  filter:drop-shadow(0 calc(var(--size)*.045) calc(var(--size)*.1) rgba(0,0,0,.45))}
 
 /* Hero */
-.hero{text-align:center;padding:26px 0 8px}
-.hero h1{font-size:clamp(38px,7vw,60px);font-weight:900;letter-spacing:-1px;margin:22px 0 8px;
+.hero{text-align:center;padding:26px 0 8px;isolation:isolate}
+.hero .appicon{--size:clamp(176px,12vw + 132px,224px);margin:10px auto 0}
+/* weicher Prisma-Halo hinter der Kachel (Teal → Violett → Gold), Icon selbst unverändert */
+.hero .appicon::before{
+  content:"";position:absolute;inset:-7%;z-index:-1;border-radius:32%;
+  background:conic-gradient(from 210deg,rgba(45,225,194,.6),rgba(124,92,255,.6),rgba(255,194,75,.4),rgba(45,225,194,.6));
+  filter:blur(calc(var(--size)*.14));opacity:.5;pointer-events:none;
+}
+.hero h1{font-size:clamp(38px,7vw,60px);font-weight:900;letter-spacing:-1px;margin:30px 0 8px;
   background:linear-gradient(96deg,#EAFBF6,#8FE9DA 55%,#B7A6FF);
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .hero .tagline{font-size:clamp(17px,3.4vw,21px);color:var(--muted);max-width:34ch;margin:0 auto}
@@ -128,6 +139,7 @@ section{padding:34px 0}
 
 .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
 .feature .ic{font-size:26px;margin-bottom:10px;display:block}
+.feature .ic svg{display:block;width:28px;height:28px;color:var(--accent)}
 .feature h3{font-size:17px;font-weight:800;margin-bottom:6px}
 .feature p{font-size:14.5px;color:var(--muted)}
 
