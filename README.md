@@ -11,11 +11,11 @@
 
 **Catnewz** ist eine Android-App, die Katzen-Nachrichten aus vielen Quellen sammelt
 und automatisch nach Stimmung sortiert – **positiv, neutral, negativ**. Fünf Sprachen
-(Deutsch, English, Español, Français, Italiano), vier Ansichten, Werbe- und
+(Deutsch, English, Español, Français, Italiano), fünf Ansichten, Werbe- und
 Paywall-Erkennung, Lesemodus – **ohne Werbung, ohne Tracking, ohne Konto**.
 
 ### 📥 Download
-- **[Catnewz 1.0 (APK) herunterladen »](catnewz-1.0.apk)** · Android 8.0+ · ca. 3,8 MB
+- **[Catnewz 1.0 (APK) herunterladen »](catnewz-1.0.apk)** · Android 8.0+ · ca. 3,6 MB
 - Projektseite: **[Zur Website »](https://devcatskz.github.io/Catnewz/)**
 - Datenschutzerklärung: **[privacy.html »](privacy.html)**
 
@@ -28,11 +28,11 @@ Paywall-Erkennung, Lesemodus – **ohne Werbung, ohne Tracking, ohne Konto**.
 
 **Catnewz** is an Android app that collects cat news from many sources and
 automatically sorts it by mood – **positive, neutral, negative**. Five languages
-(German, English, Spanish, French, Italian), four views, ad and paywall detection,
+(German, English, Spanish, French, Italian), five views, ad and paywall detection,
 reader mode – **no ads, no tracking, no account**.
 
 ### 📥 Download
-- **[Download Catnewz 1.0 (APK) »](catnewz-1.0.apk)** · Android 8.0+ · approx. 3.8 MB
+- **[Download Catnewz 1.0 (APK) »](catnewz-1.0.apk)** · Android 8.0+ · approx. 3.6 MB
 - Project page: **[Open website »](https://devcatskz.github.io/Catnewz/)**
 - Privacy policy: **[privacy.html »](privacy.html)**
 
