@@ -140,6 +140,16 @@ section{padding:34px 0}
 .steps li b{color:var(--text)}
 .note{font-size:13.5px;color:var(--muted);margin-top:14px;
   border-top:1px solid var(--hairline);padding-top:14px}
+.dl-alt{font-size:13.5px;font-weight:700}
+
+/* Kodi-Karte */
+.kodi-head{display:flex;gap:14px;align-items:flex-start}
+.kodi-head .ic svg{display:block;width:30px;height:30px;color:var(--accent);margin-top:2px}
+.kodi-head .lead{color:var(--text);font-weight:600}
+.kodi .cta-row{margin:22px 0 14px}
+code.url{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:13px;color:var(--accent);
+  background:rgba(45,225,194,.08);border:1px solid var(--glass-border);border-radius:8px;
+  padding:1px 7px;word-break:break-all;user-select:all}
 
 /* Datenschutz-Text */
 .legal h2{font-size:20px;font-weight:800;margin:26px 0 8px;color:var(--text)}
