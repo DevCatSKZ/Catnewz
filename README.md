@@ -24,9 +24,9 @@ Paywall-Erkennung, Lesemodus – **ohne Werbung, ohne Tracking, ohne Konto**.
 
 ### 📺 Kodi
 Catnewz gibt es auch als eigenständiges Kodi-Add-on – ohne App und ohne Handy (Kodi 19–22; Raspberry Pi/LibreELEC, Windows, Android TV, Linux).
-- **[Kodi-Repository herunterladen »](kodi/repository.catnewz-1.0.0.zip)**. Damit bekommt das Add-on Updates automatisch.
-- Ohne Download direkt am Fernseher: in Kodi als Quelle `https://devcatskz.github.io/Catnewz/kodi/` hinzufügen.
-- Danach *Aus ZIP-Datei installieren* → Repository, dann *Aus Repository installieren* → Catnewz Repository → Programm-Add-ons → Catnewz.
+- **[Kodi-Repository herunterladen »](https://github.com/DevCatSKZ/kodi-repo/raw/main/repository.devcatskz.zip)** (DevCatSKZ Repository). Damit bekommt das Add-on Updates automatisch.
+- Ohne Download direkt am Fernseher: in Kodi als Quelle `https://devcatskz.github.io/kodi-repo/` hinzufügen.
+- Danach *Aus ZIP-Datei installieren* → Repository, dann *Aus Repository installieren* → DevCatSKZ Repository → Programm-Add-ons → Catnewz.
 
 ---
 
@@ -47,9 +47,9 @@ reader mode – **no ads, no tracking, no account**.
 
 ### 📺 Kodi
 Catnewz is also available as a standalone Kodi add-on – no app or phone needed (Kodi 19–22; Raspberry Pi/LibreELEC, Windows, Android TV, Linux).
-- **[Download the Kodi repository »](kodi/repository.catnewz-1.0.0.zip)**. With it, the add-on updates automatically.
-- No download needed on the TV: add `https://devcatskz.github.io/Catnewz/kodi/` as a source in Kodi.
-- Then *Install from zip file* → repository, then *Install from repository* → Catnewz Repository → Program add-ons → Catnewz.
+- **[Download the Kodi repository »](https://github.com/DevCatSKZ/kodi-repo/raw/main/repository.devcatskz.zip)** (DevCatSKZ Repository). With it, the add-on updates automatically.
+- No download needed on the TV: add `https://devcatskz.github.io/kodi-repo/` as a source in Kodi.
+- Then *Install from zip file* → repository, then *Install from repository* → DevCatSKZ Repository → Program add-ons → Catnewz.
 
 ---
 
